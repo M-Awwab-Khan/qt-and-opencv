@@ -4,9 +4,10 @@ SOURCES += \
         main.cpp \
         webcamitem.cpp
 
-resources.files = main.qml 
+resources.files = main.qml
 resources.prefix = /$${TARGET}
-RESOURCES += resources
+RESOURCES += resources \
+    application.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
@@ -25,8 +26,8 @@ else:win32:CONFIG(debug, debug|release): LIBS += -LD:/opencv/opencv/build/x64/vc
 INCLUDEPATH += D:/opencv/opencv/build/include
 DEPENDPATH += D:/opencv/opencv/build/include
 
-DISTFILES += \
-    ../qtopencv/dog.jpg
-
 HEADERS += \
     webcamitem.h
+
+DISTFILES += \
+    classesPage.qml
