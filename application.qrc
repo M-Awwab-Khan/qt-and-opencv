@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/qtandopencv">
+        <file>assets/images/welcome-withoutbg.png</file>
+        <file>classesPage.qml</file>
+    </qresource>
+</RCC>
