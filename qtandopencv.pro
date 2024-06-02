@@ -30,4 +30,5 @@ HEADERS += \
     webcamitem.h
 
 DISTFILES += \
-    classesPage.qml
+    classesPage.qml \
+    welcomePage.qml
