@@ -18,7 +18,6 @@ Makefile
 *.dll
 *.dylib
 *.moc
-*.qrc
 *.qmlc
 *.qrc.depends
 *.qmltypes
