@@ -110,9 +110,9 @@ Item {
 
             // Grid of class cards
             Rectangle {
-                anchors.top: headingBar.bottom
-                anchors.right:
-                color: "#555555"
+                Layout.preferredWidth: rootFrame.width * 0.9
+                Layout.preferredHeight: rootFrame.height * 0.8
+                Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter
 
                 GridView {
                     width: parent.width
